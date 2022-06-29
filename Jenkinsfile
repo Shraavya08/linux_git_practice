@@ -1,16 +1,18 @@
 pipeline
 {
 agent any
-stages
-{
-stage('build')
-{
-steps
-{
-echo 'running build'
-}
-}
-}
-}
+  {
+    stages
+    {
+      stage('build')
+      {
+        steps
+        {
+          echo 'running build phase'
+        }
+      }
+    }
+  }
+  
 
 
