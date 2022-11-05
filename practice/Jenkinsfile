@@ -8,12 +8,14 @@ steps
       {
         echo "this is build stage"
       }
+    }
       stage("deploy")
       {
         steps
         {
           echo "this is deploy stage"
         }
+      }
         stage("test")
         {
           steps
@@ -22,4 +24,4 @@ steps
           }
         }
       }
-      
+
